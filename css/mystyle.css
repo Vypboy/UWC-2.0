@@ -1,0 +1,194 @@
+/* Log & sign page */
+#login{
+    background-color: green;
+    background-image: url("http://localhost/UWC-2.0/img/pexels-nazmul-chowdhury-945556.jpg");
+
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+#login .container{
+    justify-content: center;
+    align-items: center;
+}
+#login .bg-glass {
+background-color: hsla(0, 0%, 100%, 0.9) !important;
+backdrop-filter: saturate(200%) blur(25px);
+}   
+/* checkbox color changer */
+#login .form-check .form-check-input:checked {
+    background-color: #59981A!important;
+}
+#login .signup{
+    margin: auto;
+}
+#login .signup a{
+    color: #59981A;
+}
+/* end of Log & sign page */
+
+#main {
+    font-family: 'Lato';
+}
+.navbar{
+    background-color: #59981A;
+    margin-bottom: 5px;
+    border: 1cm;
+    align-items: center;
+}
+.navbar a{
+    color: aliceblue;
+    font-family: Lato;
+}
+#navbarNav .navbar-nav li a{
+    color: aliceblue;
+    font-family: Lato;
+}
+#intro_main{
+    background-image: url("http://localhost/UWC-2.0/img/main_webpage.jpg") ;
+    height: 60vh;
+    background-position: center;
+    background-size: cover; 
+}
+#text_1{
+    text-align: justify;
+    font-family: Monospace;  
+}
+.bg-image{
+    /* Center and scale the image nicely */
+    height: 40vh;
+    margin-bottom: 50px;
+}
+.btn {
+    background-color: #59981A;
+}
+@font-face {
+    font-family: 'Lato';
+
+    src: url('http://localhost/UWC-2.0/img/font/Lato/Lato-Regular.ttf');
+
+}
+div{
+    display: block;
+}
+.navbar{
+    background-color: #59981A;
+    border: 1cm;
+    align-items: center;
+}
+.wel{
+    color: aliceblue;
+    font-family: Lato;
+}
+.navbar a{
+    color: aliceblue;
+    font-family: Lato;
+    ;
+}
+#navbarNav .navbar-nav li a{
+    color: aliceblue;
+    font-family: Lato;
+}
+#intro{
+
+    background-image: url("http://localhost/UWC-2.0/img/officer_wall.jpg") ;
+
+    height: 60vh;
+    background-position: 30% 60%;
+    background-size: cover;
+}
+.headerwall {
+    color: black;
+    position: absolute;
+    bottom: 250px;
+    left: 3%;
+    z-index: 10;
+    text-align: left;
+}
+#text_1{
+    text-align: justify;
+    font-family: Monospace;  
+}
+.bg-image{
+    /* Center and scale the image nicely */
+    height: 40vh;
+    margin-bottom: 50px;
+}
+.mapbtn {
+    background-color: #59981A;
+}
+.MAP {
+
+    background-image: url('http://localhost/UWC-2.0/img/Map.jpg');
+
+    transform: scale(1);
+    background-size: cover;
+}
+.text{
+    color: black;
+    position: absolute;
+    bottom: 1px;
+    left: 3%;
+    z-index: 10;
+    text-align: left;
+}
+.card{
+    background-color: #59981A;
+    font-family: Lato;
+}
+.lgbtn{
+    background-color: #59981A;
+    font-family: Lato;
+}
+.abilities{
+    margin: 5px;
+}
+.abilities .images {
+    background-image: url('http://localhost/UWC-2.0/img/Map.jpg');
+    min-height: 30rem;
+    background-size: cover;
+}
+.abilities .texts {
+    color:black;
+    font-family: Lato;
+    position: absolute;
+    bottom: -12rem; 
+}
+.abilities .mapbtn {
+    font-family: Lato;
+    position: absolute;
+    bottom: -13rem;
+    margin-left: 25px; 
+}
+.abi2 {
+    font-family: Lato;
+    color: aliceblue;
+}
+.footer{
+    background-color: #59981A;
+}
+.select_collector{
+    color: #59981A;
+}
+.select_collector a{
+    color: aliceblue;
+    background-color: #59981A;
+}
+
+.collector-information{
+    color:aliceblue;
+    font-family: Lato;
+}
+.button_infor a{
+    background-color: aliceblue;
+    margin-left: 5px;
+    color: #59981A;
+    font-family: Lato;
+}
+.chose_veh a{
+    background-color: #59981A;
+    color: aliceblue;
+    margin-top: 10px;
+}

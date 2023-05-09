@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Login</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/lato-font/3.0.0/css/lato-font.min.css"/>
+    <!-- Calendar only -->
+      <!-- CSS for full calender -->
+      <!-- JS for jQuery -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+      <!-- JS for full calendar -->
+      <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.5/index.global.min.js'></script>
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- my css -->
+    <link rel="stylesheet" href="css/officer_web_styles.css" />
+  </head>
+
+  <body>
+  <!-- My login page starts here -->
+<!-- Section: Design Block -->
+<!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">MVP 1.0</a>
+            <div class="navbar-expand " id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Pay my bill</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Drop off location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Find my branch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">My account</a>
+                    </li>
+                </ul>
+            </div>
+            <p class = "wel mb-1">Welcome back, back officer !</p>
+        </div>
+    </nav>
+<!-- Main webpage -->
+    <div id ="intro" class="p-3 bg-light">
+        <div class="container">
+            <div class="headerwall col-4" >
+                <h1 class="display-3 ">Welcome back, Back Officer </h1>
+                <p class="fw-light">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple's marketing pages.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Calendar start here:  -->
+    <div class = 'containter-fluid m-5'>
+      <div id="calendar"></div>
+    </div>
+    <!-- Popup window -->
+      <!-- Modal -->
+      <div class="modal fade" id="event_entry_modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalLabel">Add new event for your staffs</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="img-container">
+                <div class="row">
+                  <div class="col-sm-12">  
+                    <div class="form-group">
+                      <label for="event_name">Event name</label>
+                      <input type="text" name="event_name" id="event_name" class="form-control" placeholder="Enter your event name">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6">  
+                    <div class="form-group">
+                      <label for="event_start_hour">Event start</label>
+                      <input type="date" name="event_start_hour" id="event_start_hour" class="form-control onlydatepicker" placeholder="Event start hour">
+                     </div>
+                  </div>
+                  <div class="col-sm-6">  
+                    <div class="form-group">
+                      <label for="event_end_hour">Event end</label>
+                      <input type="date" name="event_end_hour" id="event_end_hour" class="form-control" placeholder="Event end hour">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <br> <br>
+    <footer class="container mt-1">
+        <div class="row">
+          <div class="col-6 col-md">
+            <h5>Features</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Cool stuff</a></li>
+              <li><a class="text-muted" href="#">Random feature</a></li>
+              <li><a class="text-muted" href="#">Team feature</a></li>
+              <li><a class="text-muted" href="#">Stuff for developers</a></li>
+              <li><a class="text-muted" href="#">Another one</a></li>
+              <li><a class="text-muted" href="#">Last time</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Resource</a></li>
+              <li><a class="text-muted" href="#">Resource name</a></li>
+              <li><a class="text-muted" href="#">Another resource</a></li>
+              <li><a class="text-muted" href="#">Final resource</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Business</a></li>
+              <li><a class="text-muted" href="#">Education</a></li>
+              <li><a class="text-muted" href="#">Government</a></li>
+              <li><a class="text-muted" href="#">Gaming</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Team</a></li>
+              <li><a class="text-muted" href="#">Locations</a></li>
+              <li><a class="text-muted" href="#">Privacy</a></li>
+              <li><a class="text-muted" href="#">Terms</a></li>
+            </ul>
+          </div>
+        </div>
+    </footer>
+<!-- Section: Design Block -->
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+  <script>
+    $(document).ready(function() {
+	    display_events();
+    }); //end document.ready block
+    function display_events() {
+      var events = new Array();
+        $.ajax({
+          url: 'display.php',  
+          dataType: 'json',
+          success: function (response) {
+              var result=response.data;
+              $.each(result, function (i, item) {
+                events.push({
+                      event_id: result[i].event_id,
+                      title: result[i].title,
+                      start: result[i].start,
+                      end: result[i].end,
+                      color: result[i].color,
+              }); 	
+            })
+            document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          initialView: 'timeGridWeek',
+          editable: true,
+          selectable: true,
+		      selectHelper: true,        
+          select: function(start, end) {
+            $('#event_start_hour').val(moment(start).format('HH'));
+            $('#event_end_hour').val(moment(end).format('HH'));
+            $('#event_entry_modal').modal('show');
+          },
+
+        });
+        calendar.render();
+      });
+
+
+          
+          
+          }
+        })
+
+
+
+
+    }
+
+  </script>
+</html>

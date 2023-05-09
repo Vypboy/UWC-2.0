@@ -1,0 +1,19 @@
+.form-group{
+    margin-top: 2em;
+}
+
+label{
+    margin-bottom: 1em;
+}
+
+.return{
+   width: 50%;
+   margin: auto;
+   display: block;
+}
+
+.return:active{
+    width: 50%;
+    margin: auto;
+    display: block;
+ }

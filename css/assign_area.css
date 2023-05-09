@@ -1,0 +1,35 @@
+
+
+#district{
+  width: 400px;
+  height: 45px;
+  font-size: larger ;
+  margin-top: 35px;
+  text-align: center;
+}
+
+#ward{
+  width: 400px;
+  height: 45px;
+  margin-top: 20px;
+  font-size: larger ;
+  text-align: center;
+}
+
+
+.button-container {
+  text-align: center; /* Căn giữa nút */
+}
+
+.button-container button {
+  display: inline-block; /* Đặt nút trong cùng một hàng */
+  margin: 0 5px; /* Để khoảng cách giữa 2 nút */
+}
+
+
+/* select{
+    width: 370px;
+    font-size: larger ;
+} */
+
+
